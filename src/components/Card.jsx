@@ -1,5 +1,7 @@
-export default function Card ({ status }) {
+export default function Card ({children}) {
     return (
-        <div>{children}</div>
+        <div className="bg-[var(--pink-light)] py-2 px-4 rounded-md w-fit h-fit flex ">
+            {children}
+        </div>
     )
 }
